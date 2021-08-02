@@ -5,6 +5,7 @@ API DESCRIPTION:which stores the characters of Rick and Morty
 API: I am going to be using this api https://rickandmortyapi.com/api/character/
 API snippet :
 
+```json
    {
     "info": {
         "count": 671,
@@ -39,15 +40,12 @@ API snippet :
                 "https://rickandmortyapi.com/api/episode/7",
                 "https://rickandmortyapi.com/api/episode/8",
                 "https://rickan
+```                
 
 MVP:
-1. Responsive design for desktop; will need media query.
-2. HTML
-3. CSS; styiling using Flexbox or Grid
-4. JAVASCRIPT
-5. Use Axios to make request to an external data source and insert some retrived data to DOM.
-6. Make commits everyday
-7. Deployed site
+1. User will enter number of their choice
+2. the app will render the character with the id associated with the users numerical input
+3. user will enter a different number of chioce and view another character
 
 POST-MVP
 1. Add design/animation to css
@@ -82,8 +80,17 @@ TIMEFRAMES
 | Sorting through API| H | 1hr| 1hr
 | Run API with data | H | 3 hrs|
 | Begin writing code| H| 3 hrs|
+| Add media query| H| 3hrs| 
+| edit media query| H| 2hrs|
 | Writing code with JS| H | 3hrs
-| Styling CSS| H| 3hrs|
+| Async function| 2hrs
+| Input Loops into JS| H| 3hrs
+| Define objects in JS| H| 2hrs
+| Styling CSS| H | 3hrs|
+| Edit flexbox| H | 3hrs|
+| Insert button into Html| H| 1hr|
+| test button in browser| H | 1hr
+| Add heading(s) into HTML | H | 1hr
 | Make further edits| H | 3hrs|
 | edit HTML| H | 3hrs
 | Total | H | 40hrs| 5hrs | 5hrs |
