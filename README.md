@@ -85,6 +85,7 @@ TIMEFRAMES
 | Writing code with JS| H | 3hrs
 | Styling CSS| H| 3hrs|
 | Make further edits| H | 3hrs|
+| edit HTML| H | 3hrs
 | Total | H | 40hrs| 5hrs | 5hrs |
 
 
