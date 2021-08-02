@@ -49,6 +49,9 @@ MVP:
 6. Make commits everyday
 7. Deployed site
 
+POST-MVP
+1. Add design/animation to css
+
 
 WIREFRAMES:
 Mobile 
@@ -76,3 +79,11 @@ TIMEFRAMES
 | Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
 | Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
 | Total | H | 6hrs| 5hrs | 5hrs |
+
+
+Code Snippet
+Use this section to include a brief code snippet of functionality that you are proud of and a brief description.
+
+
+CHANGE LOG
+This section will be used to document changes that were made and the reasoning behind the changes
