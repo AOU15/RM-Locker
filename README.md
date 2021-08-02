@@ -78,13 +78,13 @@ TIMEFRAMES
 | --- | :---: |  :---: | :---: | :---: |
 | Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
 | Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Researching API| 3hrs| 4-5 hrs
-| Sorting through API| 1hr| 1hr
-| Run API with data | 3 hrs|
-| Begin writing code| 3 hrs|
-| Writing code with JS| 3hrs
-| Styling CSS| 3hrs|
-| Make further edits| 3hrs|
+| Researching API| H | 3hrs| 4-5 hrs
+| Sorting through API| H | 1hr| 1hr
+| Run API with data | H | 3 hrs|
+| Begin writing code| H| 3 hrs|
+| Writing code with JS| H | 3hrs
+| Styling CSS| H| 3hrs|
+| Make further edits| H | 3hrs|
 | Total | H | 40hrs| 5hrs | 5hrs |
 
 
