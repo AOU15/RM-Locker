@@ -43,3 +43,8 @@ lets see if this will push :)
 
 WIREFRAMES:
 Mobile 
+https://miro.com/app/board/o9J_l4WScD8=/
+
+
+PRIORITY MATRIX:
+https://miro.com/app/board/o9J_l4WScD8=/
