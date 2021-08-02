@@ -57,3 +57,22 @@ https://miro.com/app/board/o9J_l4WScD8=/
 
 PRIORITY MATRIX:
 https://miro.com/app/board/o9J_l4WScD8=/
+
+
+DAILY SCHEDULE
+|  Day | Deliverable | Status
+|---|---| ---|
+|July 30| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
+|August 2| Project Approval / Core Application Structure (HTML, CSS, etc.) | Incomplete
+|August 3| Pseudocode / actual code | Incomplete
+|August 4| Initial Clickable Model  | Incomplete
+|August 5| MVP | Incomplete
+|August 6| Presentations | Incomplete
+
+
+TIMEFRAMES
+| Component | Priority | Estimated Time | Time Invested | Actual Time |
+| --- | :---: |  :---: | :---: | :---: |
+| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
+| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
+| Total | H | 6hrs| 5hrs | 5hrs |
