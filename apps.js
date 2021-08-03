@@ -39,14 +39,14 @@ async function getCharByID(characterID) {
 function buildCharElements(charData) {
   // console.log(charData)
   charData.forEach((char) => {
-    console.log(char.name)
-    let nameEl = document.createElement('h3')
+    console.log(char)
+    let nameEl = document.createElement('h4')
     nameEl.textContent = char.name
     // dataContainer.append(nameEl)
   })
 }
 function buildChar(charData) {
-  let nameEl = document.createElement('h3')
+  let nameEl = document.createElement('h4')
   nameEl.textContent = charData.name
   dataContainer.append(nameEl)
 }
@@ -58,15 +58,19 @@ function buildChar(charData) {
 //}
 
 
-function showRmData(charData) {
+function showRmData(char) {
   console.log(data.name)
   let buildCharElements = `
   <h4>${char.name}</h4>
   <img src="${char.image}"></img>
   <h5>${char.species}</h5>
-  <p>location: ${char.location}</p>
+  <p>location:${char.location}</p>
 `
-}
+} showRmData()
+
+const firstDiv = document.getElementById("name")
+firstDiv.appendChild(nameEl)
+
 // console.log("inside show", data)
 //   //Name
 //   //Species
