@@ -1,0 +1,14 @@
+body {
+  background-color: rgb(71, 235, 219);
+  flex: auot;
+}
+
+ h1 {
+color:floralwhite;
+}
+@media screen {
+  min-width: 768px;
+}
+* {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

@@ -1,55 +1,72 @@
 const domain = 'https://rickandmortyapi.com/api/character/'
+const dataContainer = document.querySelector('#data-container')
+console.log(dataContainer)
+
+const form = document.querySelector('form')
+// console.log(form)
+form.addEventListener('submit', (e) => {
+  e.preventDefault()
+  // console.log(e)
+  const inputValue = document.querySelector('input').value
+  console.log(inputValue)
+  // removeChar()
+  // getCharbyID(inputValue)
+})
 
 
-// function fetchData(data) {
-//   const url = 'https://rickandmortyapi.com/api/character/'
-//   axios.get(url)
-//     .then((res) => {
-//       // console.log(res.data.results)
-//       const data = res.data.results
-//       console.log(data)
-//       data.forEach((character) => {
-//         // console.log(character)
-//       })
-//     })
-//     .catch((error) => {
-//       console.error(error)
-//     })
-async function fetchData(character) {
+async function fetchData() {
   try {
     const url = 'https://rickandmortyapi.com/api/character/'
     let response = await axios.get(url)
-    console.log(response.data.results)
     const characterID = response.data.results
+    // console.log(characterID)
+    buildCharElements(characterID)
   } catch (error) {
     console.error(error)
   }
 } fetchData()
-async function fetchData(characterID) {
+
+async function getCharByID(characterID) {
+  removeChar(dataContainer)
   try {
-    const url = `https://rickandmortyapi.com/api/character/${characterID}`
-    let response = await axios.get(url)
-    // console.log(response.data.results)
-    const characterID = response.data.results
-    characterID(data)
-    return data
+    const charData = await axios.get(`https://rickandmortyapi.com/api/character/${characterID}`)
+    console.log(charData.data)
+    buildChar(charData.data)
   } catch (error) {
     console.error(error)
   }
 }
-// }
-// fetchData()
-// HTML Structure
-// const personDiv = document.createElement('div')
-// peopleDiv.append(personDiv)
+function buildCharElements(charData) {
+  // console.log(charData)
+  charData.forEach((char) => {
+    console.log(char.name)
+    let nameEl = document.createElement('h3')
+    nameEl.textContent = char.name
+    // dataContainer.append(nameEl)
+  })
+}
+function buildChar(charData) {
+  let nameEl = document.createElement('h3')
+  nameEl.textContent = charData.name
+  dataContainer.append(nameEl)
+}
 
-// // function showRmData(data) {
-// //   // let rmElements = `
-// //   <h3></h3>
-// //   <img src=""></img>
-// //   <h4></h4>
-// //   <p></p>
-// `
+// function removeChar(element) {
+//   while (element.lastChild) {
+//     element.removeChild(element.lastChild)
+//   }
+//}
+
+
+function showRmData(charData) {
+  console.log(data.name)
+  let buildCharElements = `
+  <h4>${char.name}</h4>
+  <img src="${char.image}"></img>
+  <h5>${char.species}</h5>
+  <p>location: ${char.location}</p>
+`
+}
 // console.log("inside show", data)
 //   //Name
 //   //Species
