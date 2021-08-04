@@ -10,7 +10,7 @@ form.addEventListener('submit', (e) => {
   const inputValue = document.querySelector('input').value
   console.log(inputValue)
   // removeChar()
-  getCharbyID(inputValue)
+  getCharByID(inputValue)
 })
 
 
@@ -49,6 +49,15 @@ function buildChar(charData) {
   let nameEl = document.createElement('div')
   nameEl.textContent = charData.name
   dataContainer.append(nameEl)
+  let charImg = document.createElement('img')
+  charImg.src = charData.image
+  dataContainer.append(charImg)
+  let charSpecies = document.createElement('species')
+  charSpecies.textContent = charData.species
+  dataContainer.append(charSpecies)
+  let charLocation = document.createElement('location')
+  charLocation.textContent = charData.location.name
+  dataContainer.append(charLocation)
 }
 
 function removeChar(element) {
@@ -58,30 +67,3 @@ function removeChar(element) {
 }
 
 
-function showRmData(char) {
-  console.log(data.name)
-  let buildCharElements = `
-  <h4>${char.name}</h4>
-  <img src="${char.image}"></img>
-  <h5>${char.species}</h5>
-  <p>location:${char.location}</p>
-`
-}
-
-const charName = document.getElementById('name')
-dataContainer.append('name')
-const charPic = document.createElement('img')
-dataContainer.append('charPic')
-const charSpecies = document.createElement('species')
-dataContainer.append('charSpecies')
-const charLocation = document.createElement('location')
-dataContainer.append('charLocation')
-
-
-// console.log("inside show", data)
-//   //Name
-//   //Species
-//   //image
-//   //location
-
-// }
