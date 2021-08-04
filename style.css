@@ -4,11 +4,15 @@ body {
 }
 
  h1 {
-color:floralwhite;
+color:rgb(233, 102, 31);
 }
 @media screen {
   min-width: 768px;
+  max-width: 992px;
 }
 * {
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+div {
+  color: orangered;
 }

@@ -10,7 +10,7 @@ form.addEventListener('submit', (e) => {
   const inputValue = document.querySelector('input').value
   console.log(inputValue)
   // removeChar()
-  // getCharbyID(inputValue)
+  getCharbyID(inputValue)
 })
 
 
@@ -37,25 +37,25 @@ async function getCharByID(characterID) {
   }
 }
 function buildCharElements(charData) {
-  // console.log(charData)
+  console.log(charData)
   charData.forEach((char) => {
     console.log(char)
-    let nameEl = document.createElement('h4')
+    let nameEl = document.createElement('div')
     nameEl.textContent = char.name
     // dataContainer.append(nameEl)
   })
 }
 function buildChar(charData) {
-  let nameEl = document.createElement('h4')
+  let nameEl = document.createElement('div')
   nameEl.textContent = charData.name
   dataContainer.append(nameEl)
 }
 
-// function removeChar(element) {
-//   while (element.lastChild) {
-//     element.removeChild(element.lastChild)
-//   }
-//}
+function removeChar(element) {
+  while (element.lastChild) {
+    element.removeChild(element.lastChild)
+  }
+}
 
 
 function showRmData(char) {
@@ -66,10 +66,17 @@ function showRmData(char) {
   <h5>${char.species}</h5>
   <p>location:${char.location}</p>
 `
-} showRmData()
+}
 
-const firstDiv = document.getElementById("name")
-firstDiv.appendChild(nameEl)
+const charName = document.getElementById('name')
+dataContainer.append('name')
+const charPic = document.createElement('img')
+dataContainer.append('charPic')
+const charSpecies = document.createElement('species')
+dataContainer.append('charSpecies')
+const charLocation = document.createElement('location')
+dataContainer.append('charLocation')
+
 
 // console.log("inside show", data)
 //   //Name
