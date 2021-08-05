@@ -1,6 +1,8 @@
 body {
   background-color: rgb(71, 235, 219);
-  flex: auot;
+  flex: auto;
+  animation-name: test;
+  animation-duration: 40s;
 }
 
  h1 {
@@ -23,6 +25,13 @@ div {
   animation-direction: normal;
 }
 @keyframes test {
-  from {background-color: chartreuse;}
+  from {background-color: rgb(63, 225, 237);}
   to {background-color: greenyellow;}
+}
+.flex-container {
+  display: flex;
+}
+footer {
+  font-size: 30px;
+  color:whitesmoke;
 }
