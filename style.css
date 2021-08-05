@@ -1,6 +1,5 @@
 body {
   background-color: rgb(71, 235, 219);
-  flex: auto;
   animation-name: test;
   animation-duration: 40s;
 }
@@ -8,14 +7,12 @@ body {
  h1 {
 color:rgb(233, 102, 31);
 }
-@media screen {
-  min-width: 768px;
-  max-width: 992px;
-}
+
 * {
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 div {
+  display: center;
   color: orangered;
   font-size: 40px;
   position: relative;
@@ -24,14 +21,24 @@ div {
   background-color: transparent;
   animation-direction: normal;
 }
-@keyframes test {
-  from {background-color: rgb(63, 225, 237);}
-  to {background-color: greenyellow;}
+.body-container {
+ 
+  
 }
 .flex-container {
   display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 footer {
   font-size: 30px;
   color:whitesmoke;
+  
+}
+@media screen and (max-width: 768px) {
+  body {
+    background-color: orange;
+  }
+ 
+  
 }
