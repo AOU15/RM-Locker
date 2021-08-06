@@ -1,8 +1,8 @@
 # RM-Locker
 API TITLE: The name of my app will be the RM Locker 
 
-API DESCRIPTION:which stores the characters of Rick and Morty
-API: I am going to be using this api https://rickandmortyapi.com/api/character/
+API DESCRIPTION: stores the characters of Rick and Morty
+API: https://rickandmortyapi.com/api/character/
 API snippet :
 
 ```json
@@ -77,28 +77,48 @@ TIMEFRAMES
 | Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
 | Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
 | Researching API| H | 3hrs| 4-5 hrs
-| Sorting through API| H | 1hr| 1hr
-| Run API with data | H | 3 hrs|
-| Begin writing code| H| 3 hrs|
-| Add media query| H| 3hrs| 
-| edit media query| H| 2hrs|
-| Writing code with JS| H | 3hrs
-| Async function| 2hrs
-| Input Loops into JS| H| 3hrs
-| Define objects in JS| H| 2hrs
-| Styling CSS| H | 3hrs|
-| Edit flexbox| H | 3hrs|
-| Insert button into Html| H| 1hr|
-| test button in browser| H | 1hr
-| Add heading(s) into HTML | H | 1hr
-| Make further edits| H | 3hrs|
-| edit HTML| H | 3hrs
+| Sorting through API| H | 1hr| 1hr| 1-2 hrs|
+| Run API with data | H | 3 hrs| 2hrs|
+| Begin writing code| H| 3 hrs| 3-4hrs|
+| Add media query| H| 3hrs| 4hrs|
+| edit media query| H| 2hrs| 3hrs|
+| Writing code with JS| H | 3hrs| 4-5hrs|
+| Async function| H |2hrs| 3hrs|
+| Defining Charracters into JS| H| 3hrs| 3hrs
+| Define objects in JS| H| 2hrs| 2hrs
+| Styling CSS| H | 3hrs| 4-5hrs|
+| Edit flexbox| H | 3hrs| 4hrs|
+| Insert button into Html| H| 1hr| 30min|
+| test button in browser| H | 1hr| 30min|
+| Add heading(s) into HTML | H | 1hr| 1hr|
+| Make further edits| H | 3hrs| 3hrs|
+| edit HTML| H | 3hrs| 2hrs|
 | Total | H | 40hrs| 5hrs | 5hrs |
 
 
-Code Snippet
+```Code Snippet
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.
 
+function buildChar(charData) {
+  let nameEl = document.createElement('div')
+  nameEl.textContent = charData.name
+  dataContainer.append(nameEl)
+  let charImg = document.createElement('img')
+  charImg.src = charData.image
+  dataContainer.append(charImg)
+  let charSpecies = document.createElement('species')
+  charSpecies.textContent = charData.species
+  dataContainer.append(charSpecies)
+  let charLocation = document.createElement('location')
+  charLocation.textContent = charData.location.name
+  dataContainer.append(charLocation)
+}
 
+function removeChar(element) {
+  while (element.lastChild) {
+    element.removeChild(element.lastChild)
+  }
+}
+```
 CHANGE LOG
 This section will be used to document changes that were made and the reasoning behind the changes
