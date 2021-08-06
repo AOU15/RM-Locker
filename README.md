@@ -63,12 +63,12 @@ https://miro.com/app/board/o9J_l4WScD8=/
 DAILY SCHEDULE
 |  Day | Deliverable | Status
 |---|---| ---|
-|July 30| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|August 2| Project Approval / Core Application Structure (HTML, CSS, etc.) | Incomplete
-|August 3| Pseudocode / actual code | Incomplete
-|August 4| Initial Clickable Model  | Incomplete
-|August 5| MVP | Incomplete
-|August 6| Presentations | Incomplete
+|July 30| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
+|August 2| Project Approval / Core Application Structure (HTML, CSS, etc.) | Complete
+|August 3| Pseudocode / actual code | Complete
+|August 4| Initial Clickable Model  | Complete
+|August 5| MVP | Complete
+|August 6| Presentations | Complete
 
 
 TIMEFRAMES
@@ -92,7 +92,7 @@ TIMEFRAMES
 | test button in browser| H | 1hr| 30min| 30min
 | Make further edits| H | 3hrs| 3hrs| 3hrs
 | edit HTML| H | 3hrs| 1hr| 1hr
-| Total | H | 40hrs| 40hrs | 48hrs |
+| Total | H | 40hrs| 40hrs | 46hrs |
 
 
 ```Code Snippet
