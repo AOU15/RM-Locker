@@ -1,6 +1,6 @@
-body {
-  background-color: rgb(71, 235, 219);
-}
+/* body {
+  background-color: rgb(71, 235, 219); */
+/* } */
 
  h1 {
 color:rgb(233, 102, 31);
@@ -20,10 +20,17 @@ div {
   position: relative;
 }
 .flex-container{
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
-  justify-content: center;
-  
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgb(71, 235, 219);
+}
+.data-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 footer {

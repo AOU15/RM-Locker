@@ -5,20 +5,10 @@ const form = document.querySelector('form')
 form.addEventListener('submit', (e) => {
   e.preventDefault()
   const inputValue = document.querySelector('input').value
+  document.querySelector('input').value = ''
   getCharByID(inputValue)
 })
 
-
-async function fetchData() {
-  try {
-    const url = 'https://rickandmortyapi.com/api/character/'
-    let response = await axios.get(url)
-    const characterID = response.data.results
-    buildCharElements(characterID)
-  } catch (error) {
-    console.error(error)
-  }
-} fetchData()
 
 async function getCharByID(characterID) {
   removeChar(dataContainer)
@@ -29,24 +19,19 @@ async function getCharByID(characterID) {
     console.error(error)
   }
 }
-function buildCharElements(charData) {
-  charData.forEach((char) => {
-    let nameEl = document.createElement('div')
-    nameEl.textContent = char.name
-  })
-}
+
 function buildChar(charData) {
   let nameEl = document.createElement('div')
-  nameEl.textContent = charData.name
+  nameEl.textContent = `Name : ${charData.name}`
   dataContainer.append(nameEl)
   let charImg = document.createElement('img')
   charImg.src = charData.image
   dataContainer.append(charImg)
-  let charSpecies = document.createElement('species')
-  charSpecies.textContent = charData.species
+  let charSpecies = document.createElement('p')
+  charSpecies.textContent = `Species : ${charData.species}`
   dataContainer.append(charSpecies)
-  let charLocation = document.createElement('location')
-  charLocation.textContent = charData.location.name
+  let charLocation = document.createElement('p')
+  charLocation.textContent = `Location :  ${charData.location.name}`
   dataContainer.append(charLocation)
 }
 
