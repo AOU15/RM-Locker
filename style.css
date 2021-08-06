@@ -5,7 +5,8 @@ body {
  h1 {
 color:rgb(233, 102, 31);
 }
-h2 {
+h2,
+h3 {
   color:lawngreen;
 }
 
@@ -14,33 +15,31 @@ h2 {
   
 }
 div {
-  display: center;
   color: orangered;
   font-size: 40px;
   position: relative;
+}
+.flex-container{
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
   
 }
-.body-container {
-  justify-content: center;
-}
-.flex-container {
-  justify-content: center;
-  flex-direction: column;
-}
+
 footer {
   font-size: 30px;
   color:whitesmoke;
   
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
   body {
-    background-color: rgb(220, 212, 198);
+    background-image: url(https://media4.giphy.com/media/bSaZ6eXAOO01SX75w2/giphy.gif?cid=ecf05e47ggcz06dsvb137cud1aorhcd2x1rsc8vntldjcnv5&rid=giphy.gif&ct=g);
     
   }
  
   
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
   body {
   background-image: url(https://media4.giphy.com/media/U3qYN8S0j3bpK/giphy.gif?cid=ecf05e47xot0kann17l6qel43ozpf9xzedlmai734887am33&rid=giphy.gif&ct=g);
   }
