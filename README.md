@@ -84,13 +84,12 @@ TIMEFRAMES
 | edit media query| H| 2hrs| 3hrs| 3hrs
 | Writing code with JS| H | 3hrs| 4-5hrs| 5hrs|
 | Async function| H |2hrs| 3hrs| 3hrs|
-| Defining Charracters into JS| H| 3hrs| 3hrs
+| Defining Characters into JS| H| 2hrs| 2hrs| 2hrs
 | Define objects in JS| H| 2hrs| 2hrs| 2hrs
 | Styling CSS| H | 3hrs| 4-5hrs| 4.5hrs|
 | Edit flexbox| H | 3hrs| 4hrs| 4hrs|
 | Insert button into Html| H| 1hr| 30min| 30min
 | test button in browser| H | 1hr| 30min| 30min
-| Add heading(s) into HTML | H | 1hr| 1hr|
 | Make further edits| H | 3hrs| 3hrs| 3hrs
 | edit HTML| H | 3hrs| 1hr| 1hr
 | Total | H | 40hrs| 40hrs | 48hrs |
