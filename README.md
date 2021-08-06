@@ -1,4 +1,5 @@
 # RM-Locker
+Deployed link: https://aou15.github.io/RM-Locker/
 API TITLE: The name of my app will be the RM Locker 
 
 API DESCRIPTION: stores the characters of Rick and Morty
