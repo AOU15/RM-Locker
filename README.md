@@ -74,26 +74,26 @@ DAILY SCHEDULE
 TIMEFRAMES
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
+| Adding Form | H | 1hr| 1hr | 1hr |
 | Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Researching API| H | 3hrs| 4-5 hrs
-| Sorting through API| H | 1hr| 1hr| 1-2 hrs|
-| Run API with data | H | 3 hrs| 2hrs|
-| Begin writing code| H| 3 hrs| 3-4hrs|
-| Add media query| H| 3hrs| 4hrs|
-| edit media query| H| 2hrs| 3hrs|
-| Writing code with JS| H | 3hrs| 4-5hrs|
-| Async function| H |2hrs| 3hrs|
+| Researching API| H | 3hrs| 4-5 hrs| 4hrs
+| Sorting through API| H | 1hr| 1hr| 2 hrs|
+| Run API with data | H | 3 hrs| 2hrs| 2hrs
+| Begin writing code| H| 3 hrs| 3-4hrs| 4hrs
+| Add media query| H| 3hrs| 4hrs| 3hrs|
+| edit media query| H| 2hrs| 3hrs| 3hrs
+| Writing code with JS| H | 3hrs| 4-5hrs| 5hrs|
+| Async function| H |2hrs| 3hrs| 3hrs|
 | Defining Charracters into JS| H| 3hrs| 3hrs
-| Define objects in JS| H| 2hrs| 2hrs
-| Styling CSS| H | 3hrs| 4-5hrs|
-| Edit flexbox| H | 3hrs| 4hrs|
-| Insert button into Html| H| 1hr| 30min|
-| test button in browser| H | 1hr| 30min|
+| Define objects in JS| H| 2hrs| 2hrs| 2hrs
+| Styling CSS| H | 3hrs| 4-5hrs| 4.5hrs|
+| Edit flexbox| H | 3hrs| 4hrs| 4hrs|
+| Insert button into Html| H| 1hr| 30min| 30min
+| test button in browser| H | 1hr| 30min| 30min
 | Add heading(s) into HTML | H | 1hr| 1hr|
-| Make further edits| H | 3hrs| 3hrs|
-| edit HTML| H | 3hrs| 2hrs|
-| Total | H | 40hrs| 5hrs | 5hrs |
+| Make further edits| H | 3hrs| 3hrs| 3hrs
+| edit HTML| H | 3hrs| 1hr| 1hr
+| Total | H | 40hrs| 40hrs | 48hrs |
 
 
 ```Code Snippet
@@ -122,3 +122,7 @@ function removeChar(element) {
 ```
 CHANGE LOG
 This section will be used to document changes that were made and the reasoning behind the changes
+
+1.The background image was changed to images better related to the API. The reason behind it was to make the user interested in what they are seeing. 
+2.The elements on the page were moved towards the center of the page to appeal to the audidence. It also adds to the full fucntionality of the webpage.
+
